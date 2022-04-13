@@ -1,0 +1,8 @@
+
+- name: get hostame
+  shell: echo $HOSTNAME
+  register: hostame_data
+
+- name: publish hostname 
+  debug:
+  msg: "{{ hostname_data }}"

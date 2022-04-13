@@ -1,0 +1,11 @@
+---
+
+- name: Just a quick collections test
+  hosts: all
+  gather_facts: no
+
+  tasks:
+    - name: make a ping to the server
+      include_role:
+        name: my_namespace.my_collection.make_ping
+      run_once: yes
