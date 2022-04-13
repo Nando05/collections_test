@@ -1,7 +1,7 @@
 
 - name: get hostame
   shell: echo $HOSTNAME
-  register: hostame_data
+  register: hostname_data
 
 - name: publish hostname 
   debug:
