@@ -5,4 +5,4 @@
 
 - name: publish hostname 
   debug:
-  msg: "{{ hostname_data }}"
+    msg: "{{ hostname_data }}"
